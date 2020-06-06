@@ -30,7 +30,7 @@ tasks {
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     changeNotes("""
       <br>
-      <em>GIV - Initial An Embedded Web Browser as ToolWindow</em>""")
+      <em>Initial - Embedded Web Browser</em>""")
 }
 
 

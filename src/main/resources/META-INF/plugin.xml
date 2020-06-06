@@ -4,7 +4,8 @@
     <vendor email="jgafner@gmail.com">JGAFNER</vendor>
 
     <description><![CDATA[
-    Enable Browser Embedded as Tool Window. Very useful for watching some youtube coding session while coding on IDE<br>
+    Embedded Web Browser in a ToolWindow.<br>
+    Watch YouTube coding session directly in the IDE<br>
     ]]></description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
