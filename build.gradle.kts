@@ -29,8 +29,8 @@ tasks {
 }
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     changeNotes("""
-      Add change notes here.<br>
-      <em>GIV - Initial </em>""")
+      <br>
+      <em>GIV - Initial An Embedded Web Browser as ToolWindow</em>""")
 }
 
 
