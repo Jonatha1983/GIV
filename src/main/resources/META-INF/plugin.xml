@@ -1,11 +1,10 @@
 <idea-plugin>
     <id>com.gafner.giv</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <name>GIdeaBrowser</name>
+    <vendor email="jgafner@gmail.com">JGAFNER</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    Enable Browser Embedded as Tool Window. Very usefull for watching some youtube coding session while coding on IDE<br>
     ]]></description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -15,7 +14,8 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
 
-        <toolWindow id="My Sample Tool Window" icon="/icons/youtube.svg" anchor="right"
+        <projectService serviceImplementation="com.gafner.giv.GivToolWindow"/>
+        <toolWindow id="GIdeaBrowser" icon="/icons/youtube.svg" anchor="right"
                     factoryClass="com.gafner.giv.GivToolWindowFactory"/>
 
     </extensions>

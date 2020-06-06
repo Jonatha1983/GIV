@@ -29,5 +29,10 @@ tasks {
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     changeNotes("""
       Add change notes here.<br>
-      <em>most HTML tags may be used</em>""")
+      <em>GIV - Initial </em>""")
+}
+
+
+tasks.getByName<org.jetbrains.intellij.tasks.RunIdeTask>("runIde") {
+    jbrVersion("jbr_jcef-11_0_7b912.1")
 }
