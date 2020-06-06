@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.gafner"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -17,6 +17,7 @@ dependencies {
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
 //    version = "202.4357.23"
+
 }
 tasks {
     compileKotlin {
