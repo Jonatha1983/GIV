@@ -14,6 +14,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
 }
 
+//another comment
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
 //    version = "202.4357.23"
