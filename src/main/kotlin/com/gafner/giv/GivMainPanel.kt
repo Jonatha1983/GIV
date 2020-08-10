@@ -20,6 +20,7 @@ import javax.swing.JTextField
 @Suppress("UnstableApiUsage")
 class GivMainPanel(val project: Project) : SimpleToolWindowPanel(true, true), Disposable {
 
+    //simple comment
     private val URL = "http://youtube.com"
 
     init {
